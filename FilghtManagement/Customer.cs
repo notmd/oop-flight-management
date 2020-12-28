@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FilghtManagement.Customer
+namespace FlightManagement
 {
     public enum Gender
     {
@@ -17,5 +17,15 @@ namespace FilghtManagement.Customer
         public int Age { get; set; }
         public Gender Gender { get; set; }
         public string PhoneNumber { get; set; }
+
+        public Customer(int Id, string FirstName, string LastName, int Age, Gender Gender, string PhoneNumber)
+        {
+            this.Id = Id;
+            this.FirstName = FirstName;
+            this.LastName = LastName;
+            this.Age = Age;
+            this.Gender = Gender;
+            this.PhoneNumber = PhoneNumber;
+        }
     }
 }

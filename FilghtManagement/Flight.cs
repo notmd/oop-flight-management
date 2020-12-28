@@ -2,16 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FilghtManagement.Flight
+namespace FlightManagement
 {
-    public class Flight
+    class Flight
     {
         public string Id { get; set; }
 
         public DateTime StartDate { get; set; }
 
         public DateTime EndDate { get; set; }
-
-
     }
 }
