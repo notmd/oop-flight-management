@@ -12,7 +12,7 @@ namespace FlightManagement
     }
     public class Ticket
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         public Customer Customer { get; set; }
 
@@ -25,5 +25,15 @@ namespace FlightManagement
         public SeatType SeatType { get; set; }
 
         public bool Validity { get; set; }
+
+        public Ticket(int Id, Flight Flight,  int Price, int SeatID, SeatType SeatType, bool Validity)
+        {
+            this.Id = Id;
+            this.Flight = Flight;
+            this.Price = Price;
+            this.SeatID = SeatID;
+            this.SeatType = SeatType;
+            this.Validity = Validity;
+        }
     }
 }

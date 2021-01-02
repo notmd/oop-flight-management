@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FlightManagement
 {
-    class AirCraft
+    public class AirCraft
     {
         public int Id { get; set; }
 
@@ -28,6 +28,7 @@ namespace FlightManagement
             this.IATACode = IATACode;
             this.ICAOCode = ICAOCode;
         }
+
 
     }
 
