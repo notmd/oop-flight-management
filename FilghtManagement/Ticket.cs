@@ -14,8 +14,6 @@ namespace FlightManagement
     {
         public int Id { get; set; }
 
-        public Customer Customer { get; set; }
-
         public Flight Flight { get; set; }
 
         public int Price { get; set; }
