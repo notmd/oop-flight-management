@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FlightManagement
 {
-    public class Pluggage
+    public class Luggage
     {
         public int Id { get; set; }
 
@@ -13,7 +13,7 @@ namespace FlightManagement
 
         public string Description { get; set; }
 
-        public Pluggage(int Id, float Weight, string Description = "")
+        public Luggage(int Id, float Weight, string Description = "")
         {
             this.Id = Id;
             this.Weight = Weight;

@@ -16,7 +16,7 @@ namespace FlightManagement
         public Airport DepartureAirPort { get; set; }
         public Airport ArrivalAirPort { get; set; }
 
-
+        public List<Customer> Customers { get; set; }
         public Flight(int Id, DateTime StartDate,  DateTime EndDate, AirCraft AirCraft, Airport DepartureAirPort, Airport ArrivalAirPort)
         {
             this.Id = Id;

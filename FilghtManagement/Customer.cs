@@ -17,10 +17,10 @@ namespace FlightManagement
         public int Age { get; set; }
         public Gender Gender { get; set; }
         public string PhoneNumber { get; set; }
-        public Pluggage Pluggage { get; set; }
+        public Luggage Luggage { get; set; }
         public Ticket Ticket { get; set; }
 
-        public Customer(int Id, string FirstName, string LastName, int Age, Gender Gender, string PhoneNumber, Pluggage pluggage, Ticket ticket)
+        public Customer(int Id, string FirstName, string LastName, int Age, Gender Gender, string PhoneNumber, Luggage luggage, Ticket ticket)
         {
             this.Id = Id;
             this.FirstName = FirstName;
@@ -28,7 +28,7 @@ namespace FlightManagement
             this.Age = Age;
             this.Gender = Gender;
             this.PhoneNumber = PhoneNumber;
-            this.Pluggage = pluggage;
+            this.Luggage = luggage;
             this.Ticket = ticket;
         }
     }
